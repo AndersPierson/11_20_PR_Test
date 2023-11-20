@@ -6,5 +6,5 @@ footballdata = pd.read_csv("FirstTrimesterCCData.csv")
 
 st.dataframe(footballdata)
 
-st.line_chart(data=footballdata, x='QB#', y='J#')
+st.linechart(data=footballdata, x='QB#', y='J#')
 
